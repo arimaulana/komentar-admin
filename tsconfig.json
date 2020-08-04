@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "importHelpers": true,
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "lib": [
+            "ES6",
+            "DOM",
+            "ES2017"
+        ],
+        "module": "CommonJS",
+        "target": "ES5",
+        "jsx": "react"
+    },
+    "include": [
+        "./src/**/*",
+        "typings"
+    ],
+    "exclude": [
+        "src/**/*.spec.*"
+    ],
+}
